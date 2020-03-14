@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaConcurrency/JavaConcurrency.iml" filepath="$PROJECT_DIR$/JavaConcurrency/JavaConcurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaUtil/JavaUtil.iml" filepath="$PROJECT_DIR$/JavaUtil/JavaUtil.iml" />
     </modules>
   </component>
