@@ -31,7 +31,7 @@ public class UserRefTest {
         for(Method me : methods){
             System.out.println(me);
         }
-        //获取私有
+
         Method[] methods1 = targetClass.getDeclaredMethods();
         for(Method m : methods1){
             System.out.println(m.getName());

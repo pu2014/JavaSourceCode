@@ -23,8 +23,10 @@ public class HowToUseBigDecimal {
         BigDecimal y = d.subtract(e);
         //false  自动装箱问题ComparisonOfPackagingClasses
         System.out.println(x == y);
-        //false
+        //true
         System.out.println(x.equals(y));
+        //0
+        System.out.println(x.compareTo(y));
         //1
         System.out.println(c.compareTo(d));
         //0
